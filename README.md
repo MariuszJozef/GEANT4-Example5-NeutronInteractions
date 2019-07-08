@@ -1,2 +1,2 @@
-# GEANT4-MinimalExample5-SensitiveDetector
-This is a demonstration of how to set up a sensitive detector so as to register and read out signals due to interactions of radiation within that sensitive detector. (Coming soon ...) 
+# GEANT4-Example5-SwitchInteractions
+This example shows how to switch on and off some radiation-matter interactions and MyPhysicsList or also how to instead of MyPhysicsList use some predefined physics lists, such as FTFP_BERT or QBBC. (Coming soon ...) 
