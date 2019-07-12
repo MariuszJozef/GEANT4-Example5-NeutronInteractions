@@ -3,9 +3,11 @@ In this example the type of radiation-matter interactions can be selected via an
 
 Besides these lists above, a very important example of an explicit physics list with neutron interactions is furnished by GEANT4 example found in the extended/hadronic/Hadr06 directory of GEANT4 installation. The neutron physics code found therein is utilised here; it is placed (without significant changes) into the directory main/neutronPhysicsList-ExtendedHadr06. To choose this latter neutron physics list for compilation, the value passed into argv must be: neutronPhysicsList.
 
+A neutron randomly rebounds off of water nuclei:
+
 ![](GEANT4-Example5-1.gif)
 
-A single incident neutron ejects multiple other neutrons and nuclear fragments!
+A single incident neutron ejects multiple other neutrons and nuclear fragments from fissile uranium!  
 
 ![](GEANT4-Example5-2.gif)
 
