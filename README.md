@@ -5,6 +5,12 @@ Besides these lists above, a very important example of an explicit physics list 
 
 ![](GEANT4-Example5-1.gif)
 
+A single incident neutron ejects multiple other neutrons and nuclear fragments!
+
 ![](GEANT4-Example5-2.gif)
+
+![](GEANT4-Example5-3.gif)
+
+![](GEANT4-Example5-4.gif)
 
 <img width="832" alt="image" src="https://user-images.githubusercontent.com/51378175/61155548-7fd12f80-a4f1-11e9-8276-4c88b08e5994.png">
