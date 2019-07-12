@@ -15,4 +15,9 @@ A single incident neutron ejects multiple other neutrons and nuclear fragments f
 
 ![](GEANT4-Example5-4.gif)
 
+![](GEANT4-Example5-5a.gif)
+![](GEANT4-Example5-5b.gif)
+
+![](GEANT4-Example5-6.gif)
+
 <img width="832" alt="image" src="https://user-images.githubusercontent.com/51378175/61155548-7fd12f80-a4f1-11e9-8276-4c88b08e5994.png">
