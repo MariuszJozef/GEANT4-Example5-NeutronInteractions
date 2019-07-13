@@ -13,6 +13,7 @@ Besides these lists above, a very important example of an explicit physics list 
 
 ![](GEANT4-Example5-3.gif)
 
+# Add an additional detector component (a radiation shield) via user command
 ![](GEANT4-Example5-4.gif)
 
 ![](GEANT4-Example5-5b.gif)
