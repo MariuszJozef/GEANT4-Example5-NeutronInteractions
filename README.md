@@ -22,8 +22,9 @@ Besides these lists above, a very important example of an explicit physics list 
 ![](GEANT4-Example5-7.gif)
 
 # Input argument to select a physics list
-<img width="1149" alt="image" src="https://user-images.githubusercontent.com/51378175/61164753-6db6b780-a518-11e9-84da-4139ea617b7e.png">
-
 <img width="1070" alt="image" src="https://user-images.githubusercontent.com/51378175/61164951-a48dcd00-a51a-11e9-9398-8ae19903b9df.png">
 
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/51378175/61164910-31845680-a51a-11e9-8748-d69d96992426.png">
+
+# Include the path to header files of the neutronPhysicsList
+<img width="1149" alt="image" src="https://user-images.githubusercontent.com/51378175/61164753-6db6b780-a518-11e9-84da-4139ea617b7e.png">
