@@ -1,0 +1,9 @@
+/gun/particle neutron
+/gun/energy 40 MeV
+/testhadr/phys/thermalScattering true
+/radiationShield/switchOn true
+/radiationShield/thickness 3 cm
+/material/shield G4_CONCRETE
+/material/lab pressurised water 
+
+/run/beamOn 3

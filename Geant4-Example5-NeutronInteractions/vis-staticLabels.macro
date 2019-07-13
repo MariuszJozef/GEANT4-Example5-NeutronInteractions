@@ -1,0 +1,56 @@
+# Be sure to run vis-init.macro first!
+# /control/execute vis-init.macro
+# or in main()
+# uiManager->ApplyCommand("/control/execute vis-init.macro");
+
+# Label syntax:
+# /vis/scene/add/text x y z unit font_size x_offset y_offset text
+# Adds text at (x*unit, y*unit, z*unit) with font_size x_offset y_offset
+# Font size and offsets in pixels
+
+#Particle colour codes:
+#/vis/set/textColour cyan
+#/vis/scene/add/text2D -0.9 0.4 12 ! ! particle colour codes:
+
+/vis/modeling/trajectories/drawByParticleID-0/set neutron yellow
+/vis/set/textColour yellow
+/vis/scene/add/text2D -0.9 0.3 12 ! ! neutron
+
+/vis/modeling/trajectories/drawByParticleID-0/set anti_neutron white
+/vis/set/textColour magenta
+/vis/scene/add/text2D -0.75 0.3 12 ! ! anti_neutron
+
+/vis/modeling/trajectories/drawByParticleID-0/set proton white
+/vis/set/textColour white
+/vis/scene/add/text2D -0.9 0.2 12 ! ! proton
+
+/vis/modeling/trajectories/drawByParticleID-0/set anti_proton cyan
+/vis/set/textColour cyan
+/vis/scene/add/text2D -0.75 0.2 12 ! ! anti_proton
+
+/vis/modeling/trajectories/drawByParticleID-0/set electron red
+/vis/set/textColour red
+/vis/scene/add/text2D -0.9 0.1 12 ! ! electron
+
+/vis/modeling/trajectories/drawByParticleID-0/set positron blue
+/vis/set/textColour blue
+/vis/scene/add/text2D -0.75 0.1 12 ! ! positron
+
+/vis/modeling/trajectories/drawByParticleID-0/set gamma green
+/vis/set/textColour green
+/vis/scene/add/text2D -0.9 0.0 12 ! ! gamma
+
+/vis/set/textColour grey
+/vis/scene/add/text2D -0.75 0.0 12 ! ! other particles
+
+#/vis/modeling/trajectories/drawByParticleID-0/set alpha blue
+#/vis/set/textColour blue
+#/vis/scene/add/text2D -0.9 -0.1 12 ! ! alpha
+
+#/vis/modeling/trajectories/drawByParticleID-0/set GenericIon blue
+#/vis/set/textColour blue
+#/vis/scene/add/text2D -0.75 -0.1 12 ! ! generic ion
+
+/vis/set/textColour yellow
+/vis/scene/add/text2D -0.9 -0.1 12 ! ! yellow dots: Monte Carlo steps
+/vis/scene/add/logo2D
